@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TheMovieApp</string>
+
+    <string name="title_activity_detail">Movie Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- menu labels -->
+    <string name="action_settings">Settings</string>
+    <string name="refresh_data">Refresh Data</string>
+
+    <!-- keys -->
+    <string name="movie_key" translatable="false">movie</string>
+    <string name="filename_key" translatable="false">filename</string>
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <string name="image_filename" translatable="false">image_filename.png</string>
+
+    <!-- Sort order labels - the user sees these strings  -->
+    <string name="pref_sort_label">Sort Options</string>
+    <string name="pref_sort_label_highest_rated">Highest Rated</string>
+    <string name="pref_sort_label_popular">Most Popular</string>
+    <string name="pref_sort_label_rel_date">Release Date</string>
+    <string name="pref_sort_label_revenue">Revenue</string>
+    <string name="pref_sort_label_prim_rel_date">Primary Release Date</string>
+    <string name="pref_sort_label_original_title">Original Title</string>
+    <string name="pref_sort_label_vote_count">Vote Count</string>
+
+    <!-- Sort order values - these strings get passed as part of the query to the server    -->
+    <string name="pref_sort_highest_rated" translatable="false">vote_average.desc</string>
+    <string name="pref_sort_popular" translatable="false">popularity.desc</string>
+    <string name="pref_sort_rel_date" translatable="false">release_date.desc</string>
+    <string name="pref_sort_revenue" translatable="false">revenue.desc</string>
+    <string name="pref_sort_prim_rel_date" translatable="false">primary_release_date.desc</string>
+    <string name="pref_sort_original_title" translatable="false">original_title.desc</string>
+    <string name="pref_sort_vote_count" translatable="false">vote_count.desc</string>
+
+</resources>
